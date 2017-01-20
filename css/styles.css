@@ -1,0 +1,93 @@
+/*********
+General
+********/
+
+* {
+    box-sizing: border-box
+}
+
+body {
+	font-family: 'Hind', sans-serif;
+
+ }
+ .column-container{
+   font-size: 0;
+   padding: 0;
+ }
+
+ .column-container > * {
+  	display: inline-block;
+    vertical-align: top;
+    font-size: medium;
+  }
+img{
+  width: 100%;
+}
+
+/******************
+Navigation Menu-Mobile
+  ******************/
+  .navbar-mobile {
+
+
+  }
+.nav-element {
+  display: inline-block;
+  background-color: #F0EEEC;
+  width: 25%;
+  line-height: 70px;
+  margin: auto;
+}
+
+  .navbar-mobile img {
+    max-width: 40px;
+    margin:auto;
+
+  }
+
+
+/******************
+  Images-body
+  ******************/
+
+  .image-stack div {
+    display: inline-block;
+    padding-top: 8px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  .column-container img {
+    font-size: 0;
+    padding: 0;
+  }
+
+
+  @media screen and (min-width: 768px){
+      .image-stack div {
+        width: 50%;
+      }
+
+      .header div{
+        display: inline-block;
+      }
+
+      .logo img {
+        display: block;
+        max-width: 250px;
+        margin-left: 0;
+      }
+
+      .logo {
+        width:50%;
+        align-items: baseline;
+      }
+
+      .nav-container {
+        display: inline-block;
+      }
+
+
+	}
