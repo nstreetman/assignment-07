@@ -57,13 +57,22 @@ Navigation Menu-Mobile
     padding-bottom: 0px;
     padding-left: 0px;
     width: 100%;
+    color: #fff;
   }
 
   .column-container img {
     font-size: 0;
     padding: 0;
+    position: relative;
   }
 
+  .image-stack h5 {
+    position: absolute;
+    margin-top: -350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+  }
 
   @media screen and (min-width: 768px){
       .image-stack div {
@@ -88,6 +97,7 @@ Navigation Menu-Mobile
       .nav-container {
         display: inline-block;
       }
+
 
 
 	}
