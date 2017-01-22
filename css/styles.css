@@ -54,9 +54,17 @@ Navigation Menu-Mobile
   color: #fff;
   font-size: 16px;
 }
-.navbar-mobile-dropdown div{
+.navbar-mobile-dropdown ul{
   display: inline-block;
+  width: 75%;
 }
+.navbar-mobile-dropdown .icon{
+  display: inline-block;
+  color: #000;
+  font-size: 30px;
+  width: 25%;
+}
+
 
 /******************
   Images-body
