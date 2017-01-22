@@ -27,8 +27,8 @@ img{
 /******************
 Navigation Menu-Mobile
   ******************/
-  .navbar-mobile {
-
+  .navbar-mobile .ion-drag {
+      font-size: 24px;
 
   }
 .nav-element {
@@ -36,9 +36,10 @@ Navigation Menu-Mobile
   background-color: #F0EEEC;
   width: 25%;
   line-height: 70px;
-  margin: auto;
   font-size: 18px;
   font-weight: 400;
+  border-right: 1px solid #ddd;
+  text-align: center;
 }
 
   .navbar-mobile img {
