@@ -37,6 +37,8 @@ Navigation Menu-Mobile
   width: 25%;
   line-height: 70px;
   margin: auto;
+  font-size: 18px;
+  font-weight: 400;
 }
 
   .navbar-mobile img {
@@ -45,6 +47,16 @@ Navigation Menu-Mobile
 
   }
 
+.navbar-mobile-dropdown {
+  padding-top: 100px;
+  padding-bottom: 25px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+}
+.navbar-mobile-dropdown div{
+  display: inline-block;
+}
 
 /******************
   Images-body
