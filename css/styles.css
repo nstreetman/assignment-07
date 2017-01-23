@@ -28,24 +28,26 @@ img{
 Navigation Menu-Mobile
   ******************/
   .navbar-mobile .ion-drag {
-      font-size: 24px;
-
+      font-size: 32px;
   }
+
+.navbar-mobile  div:hover {
+background-color: #C3BEBB;
+}
 .nav-element {
   display: inline-block;
   background-color: #F0EEEC;
   width: 25%;
   line-height: 70px;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 900;;
   border-right: 1px solid #ddd;
   text-align: center;
 }
 
-  .navbar-mobile img {
-    max-width: 40px;
-    margin:auto;
-
+.navbar-mobile img {
+  max-width: 40px;
+  margin: auto;
   }
 
 .navbar-mobile-dropdown {
@@ -54,21 +56,33 @@ Navigation Menu-Mobile
   background-color: #000;
   color: #fff;
   font-size: 16px;
+  width: 100%;
 }
 .navbar-mobile-dropdown ul{
   display: inline-block;
-  width: 75%;
-}
-.navbar-mobile-dropdown .icon{
-  display: inline-block;
-  color: #000;
-  font-size: 30px;
-  width: 25%;
+  width: 100%;
 }
 
+.navbar-mobile-dropdown li {
+    margin-left: 10px;
+    display: inline-block;
+}
+.navbar-mobile-dropdown .ion-ios-arrow-down{
+    color: #fff;
+    font-size: 30px;
+    width: 25%;
+    padding-right: 30px;
+}
+
+.navbar-fixed-left {
+  display: none;
+}
 
 /******************
   Images-body
+
+  <!-- Used class demo as a guideline: https://github.com/tiy-chs-demos/2017-01-19-warmup-responsive-dashboard -->
+
   ******************/
 
   .image-stack div {
@@ -87,15 +101,31 @@ Navigation Menu-Mobile
     position: relative;
   }
 
-  .image-stack h5 {
-    position: absolute;
-    margin-top: -350px;
-    margin-left: auto;
-    margin-right: auto;
+  .image-stack .overlay{
+    position: relative;
+    top: 50%;
+    left: 50%;
     font-weight: 500;
   }
 
+
+
+  /******************
+  Media Screen
+    ******************/
+
   @media screen and (min-width: 768px){
+      .navbar-fixed-top {
+        display: none;
+      }
+      .navbar-fixed-left {
+        display: block;
+      }
+
+      .navbar-fixed-left .nav2-element {
+        max-width: 100%;
+      }
+
       .image-stack div {
         width: 50%;
       }
@@ -119,6 +149,51 @@ Navigation Menu-Mobile
         display: inline-block;
       }
 
+      /******************
+      Navigation Menu-left fixed
+        ******************/
+      .navbar-fixed-left {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 20%;
+        box-shadow: 3px 0px rgba(209, 208, 207, 0.5);
 
+      }
 
+      .nav2-element {
+        display: block;
+        background-color: #F0EEEC;
+        width: 100%;
+        line-height: 70px;
+        font-size: 16px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        border-right: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 2.5em;
+        padding: 25px;
+        text-align: center;
+      }
+      .sidebar {
+        max-width: 20%;
+      }
+      .logo-box  {
+        padding-bottom: 50px;
+      }
+
+      .bottom-box  {
+        padding-top: 50px;
+        /*border-top: 1px solid #ddd;*/
+        line-height: 1.5em;
+      }
+      .navbar-fixed-left  div:hover {
+      background-color: #C3BEBB;
+      }
+
+      .social-media {
+        letter-spacing: 7px;
+      }
 	}
