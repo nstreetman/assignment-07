@@ -51,8 +51,9 @@ background-color: #C3BEBB;
   }
 
 .navbar-mobile-dropdown {
+  display: inline-block;
   padding-top: 100px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   background-color: #000;
   color: #fff;
   font-size: 16px;
@@ -76,6 +77,9 @@ background-color: #C3BEBB;
 
 .navbar-fixed-left {
   display: none;
+}
+.navbar-mobile-dropdown-fullsize {
+  display:none;
 }
 
 /******************
@@ -117,6 +121,26 @@ background-color: #C3BEBB;
   @media screen and (min-width: 768px){
       .navbar-fixed-top {
         display: none;
+      }
+
+      .navbar-mobile-dropdown {
+        display: none;
+      }
+      .navbar-mobile-dropdown-fullsize {
+        display:inline-block;
+        width: 80%;
+        position:fixed;
+        top: 0;
+        right: 0px;
+        background-color: #000;
+        color: #fff;
+        padding: 20px;
+        font-size: 16px;
+        width: 80%;
+      }
+
+      .navbar-mobile-dropdown-fullsize li {
+        padding-left: 40px;
       }
       .navbar-fixed-left {
         display: block;
@@ -169,24 +193,24 @@ background-color: #C3BEBB;
         font-size: 16px;
         font-weight: 900;
         letter-spacing: 1px;
-        border-right: 1px solid #ddd;
-        border-bottom: 1px solid #ddd;
+        border-right: 1.5px solid #ddd;
+        border-bottom: 1.5px solid #ddd;
         margin-left: auto;
         margin-right: auto;
         line-height: 2.5em;
-        padding: 25px;
+        padding: 30px;
         text-align: center;
       }
       .sidebar {
         max-width: 20%;
       }
       .logo-box  {
-        padding-bottom: 50px;
+        padding-bottom: 75px;
       }
 
       .bottom-box  {
         padding-top: 50px;
-        /*border-top: 1px solid #ddd;*/
+        padding-bottom: 30px;
         line-height: 1.5em;
       }
       .navbar-fixed-left  div:hover {
