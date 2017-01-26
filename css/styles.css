@@ -97,6 +97,14 @@ background-color: #C3BEBB;
     padding-left: 0px;
     width: 100%;
     color: #fff;
+    text-shadow: 1px 1px 1px #000;
+
+  }
+
+  .image-stack h4 {
+    padding-bottom: 3em;
+    text-shadow: 1px 1px 1px #000;
+
   }
 
   .column-container img {
@@ -104,15 +112,61 @@ background-color: #C3BEBB;
     padding: 0;
     position: relative;
   }
-
-  .image-stack .overlay{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    font-weight: 500;
+  .wavy {
+    width: 15%;
   }
+ .image1 {
+   background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-07/images/momofuko-01-noodlebarbowl_mini1.jpg");
+   background-size: cover;
+   text-align: center;
+   height: 300px;
+}
 
+.image2 {
+  background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-07/images/momofuko-02-ssam-bar.jpg");
+  background-size: cover;
+  text-align: center;
+  height: 300px;
+}
 
+.image3 {
+  background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-07/images/momofuko-03-ko.png");
+  background-size: cover;
+  text-align: center;
+  height: 300px
+}
+
+.image4 {
+  background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-07/images/momofuko-04-ma-peche.jpg");
+  background-size: cover;
+  text-align: center;
+  height: 300px
+}
+
+.image5 {
+  background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-07/images/momofuko-05-nishi.jpg");
+  background-size: cover;
+  text-align: center;
+  height: 300px
+}
+.image6 {
+  background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-07/images/momofuko-06-CCDC.jpg");
+  background-size: cover;
+  text-align: center;
+  height: 300px
+}
+.image7 {
+  background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-07/images/momofuko-07-daisho.png");
+  background-size: cover;
+  text-align: center;
+  height: 300px
+}
+.image8 {
+  background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-07/images/momofuko-08-shoto.png");
+  background-size: cover;
+  text-align: center;
+  height: 300px
+}
 
   /******************
   Media Screen
