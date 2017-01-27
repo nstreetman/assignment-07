@@ -88,16 +88,22 @@ background-color: #C3BEBB;
   <!-- Used class demo as a guideline: https://github.com/tiy-chs-demos/2017-01-19-warmup-responsive-dashboard -->
 
   ******************/
+  .image-stack {
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+
+  }
 
   .image-stack div {
     display: inline-block;
-    padding-top: 8px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
     width: 100%;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
+    margin-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
 
   }
 
@@ -206,6 +212,14 @@ background-color: #C3BEBB;
       .navbar-fixed-left .nav2-element {
         max-width: 100%;
         height: 100%;
+      }
+
+      .image-stack {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+
+        width: 80%;
       }
 
       .image-stack div {
