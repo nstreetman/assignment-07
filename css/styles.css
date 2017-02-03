@@ -122,53 +122,53 @@ background-color: #C3BEBB;
     width: 15%;
   }
  .image1 {
-   background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-07/images/momofuko-01-noodlebarbowl_mini1.jpg");
+   background-image: url("../images/momofuko-01-noodlebarbowl_mini1.jpg");
    background-size: cover;
    text-align: center;
    height: 300px;
 }
 
 .image2 {
-  background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-07/images/momofuko-02-ssam-bar.jpg");
+  background-image: url("../images/momofuko-02-ssam-bar.jpg");
   background-size: cover;
   text-align: center;
   height: 300px;
 }
 
 .image3 {
-  background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-07/images/momofuko-03-ko.png");
+  background-image: url("../images/momofuko-03-ko.png");
   background-size: cover;
   text-align: center;
   height: 300px
 }
 
 .image4 {
-  background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-07/images/momofuko-04-ma-peche.jpg");
+  background-image: url("../images/momofuko-04-ma-peche.jpg");
   background-size: cover;
   text-align: center;
   height: 300px
 }
 
 .image5 {
-  background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-07/images/momofuko-05-nishi.jpg");
+  background-image: url("../images/momofuko-05-nishi.jpg");
   background-size: cover;
   text-align: center;
   height: 300px
 }
 .image6 {
-  background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-07/images/momofuko-06-CCDC.jpg");
+  background-image: url("../images/momofuko-06-CCDC.jpg");
   background-size: cover;
   text-align: center;
   height: 300px
 }
 .image7 {
-  background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-07/images/momofuko-07-daisho.png");
+  background-image: url("../images/momofuko-07-daisho.png");
   background-size: cover;
   text-align: center;
   height: 300px
 }
 .image8 {
-  background-image: url("/Users/nicole.streetman/TIY/assignments/assignment-07/images/momofuko-08-shoto.png");
+  background-image: url("../images/momofuko-08-shoto.png");
   background-size: cover;
   text-align: center;
   height: 300px
@@ -216,7 +216,7 @@ background-color: #C3BEBB;
 
       .image-stack {
         position: fixed;
-        bottom: 0px;
+        /*top: 100px;*/
         right: 0px;
 
         width: 80%;
