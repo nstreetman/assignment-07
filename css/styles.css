@@ -179,6 +179,10 @@ background-color: #C3BEBB;
     ******************/
 
   @media screen and (min-width: 768px){
+      #container-body{
+        padding-left: 20%;
+        width: 100%;
+      }
       .navbar-fixed-top {
         display: none;
       }
@@ -214,13 +218,13 @@ background-color: #C3BEBB;
         height: 100%;
       }
 
-      .image-stack {
-        position: fixed;
+      /*.image-stack {
+        /*position: fixed;*/
         /*top: 100px;*/
-        right: 0px;
+        /*right: 0px;*/
 
-        width: 80%;
-      }
+        /*width: 80%;*/
+      /*}*/
 
       .image-stack div {
         width: 50%;
